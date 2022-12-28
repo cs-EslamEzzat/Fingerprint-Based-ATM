@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 238</value>
+  </data>
+  <data name="lblname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="lblname.Text" xml:space="preserve">
+    <value>الاسم.</value>
+  </data>
+  <data name="lblname.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 238</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 18</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>الاسم : </value>
+  </data>
+  <data name="Label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblnewbal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 350</value>
+  </data>
+  <data name="lblnewbal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 18</value>
+  </data>
+  <data name="lblnewbal.Text" xml:space="preserve">
+    <value>الرصيد .</value>
+  </data>
+  <data name="lblnewbal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 350</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>الرصيد الحالي :</value>
+  </data>
+  <data name="lbldep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 382</value>
+  </data>
+  <data name="lbldep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 18</value>
+  </data>
+  <data name="lbldep.Text" xml:space="preserve">
+    <value>المبلغ.</value>
+  </data>
+  <data name="lbldep.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblwith.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 311</value>
+  </data>
+  <data name="lblwith.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 18</value>
+  </data>
+  <data name="lblwith.Text" xml:space="preserve">
+    <value>المبلغ.</value>
+  </data>
+  <data name="lblwith.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblbal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 270</value>
+  </data>
+  <data name="lblbal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 18</value>
+  </data>
+  <data name="lblbal.Text" xml:space="preserve">
+    <value>الرصيد.</value>
+  </data>
+  <data name="lblbal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbldate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 168</value>
+  </data>
+  <data name="lbldate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="lbldate.Text" xml:space="preserve">
+    <value>التاريخ.</value>
+  </data>
+  <data name="lbldate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 168</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>التاريخ : </value>
+  </data>
+  <data name="lblDeposit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 382</value>
+  </data>
+  <data name="lblDeposit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 18</value>
+  </data>
+  <data name="lblDeposit.Text" xml:space="preserve">
+    <value>مبلغ الايداع :</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 311</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 18</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>المبلغ المسحوب : </value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 270</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 18</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>الرصيد : </value>
+  </data>
+  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 199</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>الوقت : </value>
+  </data>
+  <data name="lblTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 199</value>
+  </data>
+  <data name="lblTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="lblTime.Text" xml:space="preserve">
+    <value>الوقت.</value>
+  </data>
+  <data name="lblTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 138</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>نوع الحساب :</value>
+  </data>
+  <data name="lblTypeOfAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 138</value>
+  </data>
+  <data name="lblTypeOfAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="lblTypeOfAccount.Text" xml:space="preserve">
+    <value>النوع.</value>
+  </data>
+  <data name="lblTypeOfAccount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btn_Ok.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 450</value>
+  </data>
+  <data name="btn_Ok.Text" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+</root>

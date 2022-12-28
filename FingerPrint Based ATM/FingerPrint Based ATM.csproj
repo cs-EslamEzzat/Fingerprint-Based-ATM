@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B73B21D-1F48-4B60-9FE3-0D7BE5BB7443}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FingerPrint_Based_ATM</RootNamespace>
+    <AssemblyName>FingerPrint Based ATM</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ATM.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Ports, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Ports.6.0.0\lib\net461\System.IO.Ports.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\accountClass.cs" />
+    <Compile Include="Database\Connection.cs" />
+    <Compile Include="Forms\AccountType_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AccountType_Form.Designer.cs">
+      <DependentUpon>AccountType_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ask_For_Receipt_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ask_For_Receipt_Form.Designer.cs">
+      <DependentUpon>Ask_For_Receipt_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Balance_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Balance_Form.Designer.cs">
+      <DependentUpon>Balance_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Check_AccounType_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Check_AccounType_Form.Designer.cs">
+      <DependentUpon>Check_AccounType_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Check_Transfer_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Check_Transfer_Form.Designer.cs">
+      <DependentUpon>Check_Transfer_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChkAccountAndAmountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChkAccountAndAmountForm.Designer.cs">
+      <DependentUpon>ChkAccountAndAmountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChkAccountNumberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChkAccountNumberForm.Designer.cs">
+      <DependentUpon>ChkAccountNumberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChkAmountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChkAmountForm.Designer.cs">
+      <DependentUpon>ChkAmountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChkPinCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChkPinCodeForm.Designer.cs">
+      <DependentUpon>ChkPinCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChkTransfirForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChkTransfirForm.Designer.cs">
+      <DependentUpon>ChkTransfirForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Deposit_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Deposit_Form.Designer.cs">
+      <DependentUpon>Deposit_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\End_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\End_Form.Designer.cs">
+      <DependentUpon>End_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Erorr_Acco_Transfer_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Erorr_Acco_Transfer_Form.Designer.cs">
+      <DependentUpon>Erorr_Acco_Transfer_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Erorr_Fingerprint_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Erorr_Fingerprint_Form.Designer.cs">
+      <DependentUpon>Erorr_Fingerprint_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Erorr_PinCode_orm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Erorr_PinCode_orm.Designer.cs">
+      <DependentUpon>Erorr_PinCode_orm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FingerprintLogin_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FingerprintLogin_Form.Designer.cs">
+      <DependentUpon>FingerprintLogin_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Language_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Language_Form.Designer.cs">
+      <DependentUpon>Language_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Operating_Load_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Operating_Load_Form.Designer.cs">
+      <DependentUpon>Operating_Load_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PinCode_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PinCode_Form.Designer.cs">
+      <DependentUpon>PinCode_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PleaseWait_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PleaseWait_Form.Designer.cs">
+      <DependentUpon>PleaseWait_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Receipt_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Receipt_Form.Designer.cs">
+      <DependentUpon>Receipt_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transaction_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transaction_Form.Designer.cs">
+      <DependentUpon>Transaction_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transfer_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transfer_Form.Designer.cs">
+      <DependentUpon>Transfer_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TryAgen_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TryAgen_Form.Designer.cs">
+      <DependentUpon>TryAgen_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Welcome_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Welcome_Form.Designer.cs">
+      <DependentUpon>Welcome_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Withdraw_1_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Withdraw_1_Form.Designer.cs">
+      <DependentUpon>Withdraw_1_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Withdraw_2_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Withdraw_2_Form.Designer.cs">
+      <DependentUpon>Withdraw_2_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TControls\TButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\AccountType_Form.ar-EG.resx">
+      <DependentUpon>AccountType_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AccountType_Form.resx">
+      <DependentUpon>AccountType_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ask_For_Receipt_Form.ar-EG.resx">
+      <DependentUpon>Ask_For_Receipt_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ask_For_Receipt_Form.resx">
+      <DependentUpon>Ask_For_Receipt_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Balance_Form.ar-EG.resx">
+      <DependentUpon>Balance_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Balance_Form.resx">
+      <DependentUpon>Balance_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Check_AccounType_Form.ar-EG.resx">
+      <DependentUpon>Check_AccounType_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Check_AccounType_Form.resx">
+      <DependentUpon>Check_AccounType_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Check_Transfer_Form.ar-DJ.resx">
+      <DependentUpon>Check_Transfer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Check_Transfer_Form.ar-EG.resx">
+      <DependentUpon>Check_Transfer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Check_Transfer_Form.resx">
+      <DependentUpon>Check_Transfer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkAccountAndAmountForm.ar-EG.resx">
+      <DependentUpon>ChkAccountAndAmountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkAccountAndAmountForm.resx">
+      <DependentUpon>ChkAccountAndAmountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkAccountNumberForm.aa.resx">
+      <DependentUpon>ChkAccountNumberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkAccountNumberForm.ar-EG.resx">
+      <DependentUpon>ChkAccountNumberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkAccountNumberForm.resx">
+      <DependentUpon>ChkAccountNumberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkAmountForm.ar-EG.resx">
+      <DependentUpon>ChkAmountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkAmountForm.resx">
+      <DependentUpon>ChkAmountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkPinCodeForm.ar-EG.resx">
+      <DependentUpon>ChkPinCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkPinCodeForm.resx">
+      <DependentUpon>ChkPinCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkTransfirForm.aa.resx">
+      <DependentUpon>ChkTransfirForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkTransfirForm.ar-EG.resx">
+      <DependentUpon>ChkTransfirForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChkTransfirForm.resx">
+      <DependentUpon>ChkTransfirForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Deposit_Form.ar-EG.resx">
+      <DependentUpon>Deposit_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Deposit_Form.resx">
+      <DependentUpon>Deposit_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\End_Form.ar-EG.resx">
+      <DependentUpon>End_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\End_Form.resx">
+      <DependentUpon>End_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Erorr_Acco_Transfer_Form.ar-EG.resx">
+      <DependentUpon>Erorr_Acco_Transfer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Erorr_Acco_Transfer_Form.resx">
+      <DependentUpon>Erorr_Acco_Transfer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Erorr_Fingerprint_Form.ar-EG.resx">
+      <DependentUpon>Erorr_Fingerprint_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Erorr_Fingerprint_Form.resx">
+      <DependentUpon>Erorr_Fingerprint_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Erorr_PinCode_orm.ar-EG.resx">
+      <DependentUpon>Erorr_PinCode_orm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Erorr_PinCode_orm.resx">
+      <DependentUpon>Erorr_PinCode_orm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FingerprintLogin_Form.ar-EG.resx">
+      <DependentUpon>FingerprintLogin_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FingerprintLogin_Form.resx">
+      <DependentUpon>FingerprintLogin_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Language_Form.resx">
+      <DependentUpon>Language_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Operating_Load_Form.ar-EG.resx">
+      <DependentUpon>Operating_Load_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Operating_Load_Form.resx">
+      <DependentUpon>Operating_Load_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PinCode_Form.ar-EG.resx">
+      <DependentUpon>PinCode_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PinCode_Form.resx">
+      <DependentUpon>PinCode_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PleaseWait_Form.ar-EG.resx">
+      <DependentUpon>PleaseWait_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PleaseWait_Form.resx">
+      <DependentUpon>PleaseWait_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Receipt_Form.aa-DJ.resx">
+      <DependentUpon>Receipt_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Receipt_Form.ar-EG.resx">
+      <DependentUpon>Receipt_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Receipt_Form.resx">
+      <DependentUpon>Receipt_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transaction_Form.ar-EG.resx">
+      <DependentUpon>Transaction_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transaction_Form.resx">
+      <DependentUpon>Transaction_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transfer_Form.ar-EG.resx">
+      <DependentUpon>Transfer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transfer_Form.ar-ER.resx">
+      <DependentUpon>Transfer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transfer_Form.resx">
+      <DependentUpon>Transfer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TryAgen_Form.ar-EG.resx">
+      <DependentUpon>TryAgen_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TryAgen_Form.resx">
+      <DependentUpon>TryAgen_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Welcome_Form.resx">
+      <DependentUpon>Welcome_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Withdraw_1_Form.ar-EG.resx">
+      <DependentUpon>Withdraw_1_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Withdraw_1_Form.resx">
+      <DependentUpon>Withdraw_1_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Withdraw_2_Form.ar-DJ.resx">
+      <DependentUpon>Withdraw_2_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Withdraw_2_Form.ar-EG.resx">
+      <DependentUpon>Withdraw_2_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Withdraw_2_Form.resx">
+      <DependentUpon>Withdraw_2_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Design\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bio2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarek2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keybad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secrecy-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ATM-Transaction.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mika-baumeister-EPrGM3nTOXg-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29 %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ATMLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background_money.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atm withdraw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ATM.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
