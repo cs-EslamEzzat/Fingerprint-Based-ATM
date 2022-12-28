@@ -572,3 +572,86 @@ C:\Users\NoteBook\Desktop\Fingerprint-Based-ATM\FingerPrint Based ATM\obj\Debug\
 C:\Users\NoteBook\Desktop\Fingerprint-Based-ATM\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.csproj.CopyComplete
 C:\Users\NoteBook\Desktop\Fingerprint-Based-ATM\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.exe
 C:\Users\NoteBook\Desktop\Fingerprint-Based-ATM\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.pdb
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\FingerPrint Based ATM.exe.config
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\FingerPrint Based ATM.exe
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\FingerPrint Based ATM.pdb
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\ar-EG\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\ar-DJ\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\aa\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\aa-DJ\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\ar-ER\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\System.Data.SqlClient.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\System.IO.Ports.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\System.Data.SqlClient.xml
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\bin\Debug\System.IO.Ports.xml
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.csproj.AssemblyReference.cache
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.csproj.SuggestedBindingRedirects.cache
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.AccountType_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Ask_For_Receipt_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Balance_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Check_AccounType_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Chek_Transfer_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountAndAmountForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountNumberForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAmountForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkPinCodeForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkTransfirForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Deposit_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.End_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Erorr_Acco_Transfer_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Erorr_Fingerprint_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Erorr_PinCode_orm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.FingerprintLogin_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Language_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Operating_Load_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.PinCode_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.PleaseWait_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Receipt_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Transaction_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Transfer_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.TryAgen_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.wellcome_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Withdraw_1_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Withdraw_2_Form.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Properties.Resources.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.AccountType_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Ask_For_Receipt_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Balance_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Check_AccounType_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Chek_Transfer_Form.ar-DJ.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Chek_Transfer_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountAndAmountForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountNumberForm.aa.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountNumberForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAmountForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkPinCodeForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkTransfirForm.aa.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkTransfirForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Deposit_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.End_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Erorr_Acco_Transfer_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Erorr_Fingerprint_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Erorr_PinCode_orm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.FingerprintLogin_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Operating_Load_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.PinCode_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.PleaseWait_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Receipt_Form.aa-DJ.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Receipt_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Transaction_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Transfer_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Transfer_Form.ar-ER.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.TryAgen_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Withdraw_1_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Withdraw_2_Form.ar-DJ.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Withdraw_2_Form.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.csproj.GenerateResource.cache
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.csproj.CoreCompileInputs.cache
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\ar-EG\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\ar-DJ\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\aa\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\aa-DJ\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\ar-ER\FingerPrint Based ATM.resources.dll
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.csproj.CopyComplete
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.exe
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.pdb
