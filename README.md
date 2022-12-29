@@ -6,7 +6,7 @@ An implementaion of Fingerprint-Based-ATM, It allows to users to authenticate wi
 - The second scenario, Traditional ATM System accept only the pin code as a security system, enabling the other person rather than the owner to access the account very easily.
 
 # Problem Solution
-- The proposed system provides the solution for users that’s `Fingerprint based ATM`.
+- The proposed system provides the solution for users that’s `Fingerprint-Based-ATM`.
 
 # Features
 1. Fingerprint-Based-ATM System is more secure than ATM card.
