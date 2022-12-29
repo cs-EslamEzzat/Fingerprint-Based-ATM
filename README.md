@@ -18,25 +18,25 @@ An implementaion of Fingerprint-Based-ATM, It allows users to authenticate with 
 7. Saving time.
 
 # Tools
-- Fingerprint sensor
-- Arduino UNO
-- Jumper Wires
-- Pin Header Male
-- C#
-- SQL
+- Fingerprint sensor.
+- Arduino UNO.
+- Jumper Wires.
+- Pin Header Male.
+- C#.
+- SQL.
 
 # Snapshots
-<h3>Start of the system</h3>
+<h3>Start of the system.</h3>
  <picture>
  <img alt="Stare of the system" src="https://github.com/EsEz1/Fingerprint-Based-ATM/blob/master/Images/Start.png">
  </picture>
  <br>
- <h3>English Entering</h3>
+ <h3>English Entering.</h3>
  <picture>
  <img alt="English Entering" src="https://github.com/EsEz1/Fingerprint-Based-ATM/blob/master/Images/English%20Entering.png">
  </picture>
  <br>
- <h3>Arabic Entering</h3>
+ <h3>Arabic Entering.</h3>
  <picture>
  <img alt="Arabic Entering" src="https://github.com/EsEz1/Fingerprint-Based-ATM/blob/master/Images/Arabic%20Entering.png">
  </picture>
