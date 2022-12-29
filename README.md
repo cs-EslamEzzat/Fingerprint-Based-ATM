@@ -1,5 +1,5 @@
 # Fingerprint-Based-ATM
-An implementaion of Fingerprint-Based-ATM, It allows to users to authenticate with ATM using fingerprint instead of card.
+An implementaion of Fingerprint-Based-ATM, It allows users to authenticate with ATM using fingerprint instead of card.
 
 # Problem Definition
 - The first scenario, When anyone want to deal with ATM this require card but if the person isn’t having the card or lost the card he doesn’t deal with ATM.
