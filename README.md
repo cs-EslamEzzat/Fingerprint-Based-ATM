@@ -24,11 +24,11 @@ An implementaion of Fingerprint-Based-ATM, It allows users to authenticate with 
 - Pin Header Male
 
 # Snapshots
-<!--<picture>
+ <picture>
  <img alt="Stare of the system" src="https://github.com/EsEz1/Fingerprint-Based-ATM/blob/master/Images/Start.png">
  </picture>
  <br>
- <picture> -->
+ <picture>
  <img alt="English Entering" src="https://github.com/EsEz1/Fingerprint-Based-ATM/blob/master/Images/English%20Entering.png">
  </picture>
 
