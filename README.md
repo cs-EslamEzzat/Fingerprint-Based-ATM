@@ -15,6 +15,7 @@ An implementaion of Fingerprint-Based-ATM, It allows users to authenticate with 
 4. Easy to use.
 5. The system provides fingerprint and pin code as a security system instead of using pin code only.
 6. Using fingerprint, it contributes to development process of banking.
+7. Saving time.
 
 # Tools
 - Fingerprint sensor
@@ -23,5 +24,7 @@ An implementaion of Fingerprint-Based-ATM, It allows users to authenticate with 
 - Pin Header Male
 
 # Snapshots
-
+ <picture>
+ <img alt="Stare of the system" src="https://github.com/EsEz1/Fingerprint-Based-ATM/blob/master/Images/Start.png">
+ </picture>
 
