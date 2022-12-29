@@ -22,6 +22,8 @@ An implementaion of Fingerprint-Based-ATM, It allows users to authenticate with 
 - Arduino UNO
 - Jumper Wires
 - Pin Header Male
+- C#
+- SQL
 
 # Snapshots
 <h3>Start of the system</h3>
