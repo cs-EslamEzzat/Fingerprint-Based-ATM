@@ -29,6 +29,6 @@ An implementaion of Fingerprint-Based-ATM, It allows users to authenticate with 
  </picture>
  <br>
  <picture> -->
- <img alt="English Entering" src=" https://github.com/EsEz1/Fingerprint-Based-ATM/blob/master/Images/English%20Entering.png">
+ <img alt="English Entering" src="https://github.com/EsEz1/Fingerprint-Based-ATM/blob/master/Images/English%20Entering.png">
  </picture>
 
