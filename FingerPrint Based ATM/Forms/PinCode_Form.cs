@@ -93,7 +93,7 @@ namespace FingerPrint_Based_ATM.Forms
             else
             {
 
-                ChkPinCodeForm chkForm = new ChkPinCodeForm();
+                CheckPinCodeForm chkForm = new CheckPinCodeForm();
                 chkForm.ShowDialog();
                 //MessageBox.Show("Please,Fill The Box Of PinCode");
             }

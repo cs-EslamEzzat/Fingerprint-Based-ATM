@@ -342,7 +342,7 @@
     <value>31</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Please insert The FingerPrint</value>
+    <value>Please, Insert the fingerprint</value>
   </data>
   <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>

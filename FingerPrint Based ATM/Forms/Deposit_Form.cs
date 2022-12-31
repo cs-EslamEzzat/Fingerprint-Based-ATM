@@ -54,7 +54,7 @@ namespace FingerPrint_Based_ATM.Forms
         {
             if (txtAmount.Text == "")
             {
-                ChkAmountForm chkAmount = new ChkAmountForm();
+                CheckAmountForm chkAmount = new CheckAmountForm();
                 chkAmount.ShowDialog();
             }
             else

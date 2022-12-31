@@ -591,11 +591,6 @@ C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Balance_Form.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Check_AccounType_Form.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Chek_Transfer_Form.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountAndAmountForm.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountNumberForm.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAmountForm.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkPinCodeForm.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkTransfirForm.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Deposit_Form.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.End_Form.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Erorr_Acco_Transfer_Form.resources
@@ -620,13 +615,6 @@ C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Check_AccounType_Form.ar-EG.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Chek_Transfer_Form.ar-DJ.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Chek_Transfer_Form.ar-EG.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountAndAmountForm.ar-EG.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountNumberForm.aa.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAccountNumberForm.ar-EG.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkAmountForm.ar-EG.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkPinCodeForm.ar-EG.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkTransfirForm.aa.resources
-C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.ChkTransfirForm.ar-EG.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Deposit_Form.ar-EG.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.End_Form.ar-EG.resources
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.Erorr_Acco_Transfer_Form.ar-EG.resources
@@ -655,3 +643,15 @@ C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\ar-ER\FingerPrint 
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.csproj.CopyComplete
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.exe
 C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint Based ATM.pdb
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckAccountAndAmountForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckAccountAndAmountForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckAccountNumberForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckAmountForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckPinCodeForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckTransfirForm.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckAccountNumberForm.aa.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckAccountNumberForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckAmountForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckPinCodeForm.ar-EG.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckTransfirForm.aa.resources
+C:\Users\NoteBook\Desktop\FBA\FingerPrint Based ATM\obj\Debug\FingerPrint_Based_ATM.Forms.CheckTransfirForm.ar-EG.resources

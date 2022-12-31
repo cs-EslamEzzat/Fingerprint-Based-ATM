@@ -76,21 +76,21 @@ namespace FingerPrint_Based_ATM.Forms
                 if (txt_accnum.Text == "" && txt_amount.Text == "")
                 {
                     //MessageBox.Show("Please,Fill The Box Of Account Number And Amount");
-                    ChkAccountAndAmountForm chkAccAmount = new ChkAccountAndAmountForm();
+                    CheckAccountAndAmountForm chkAccAmount = new CheckAccountAndAmountForm();
                     chkAccAmount.ShowDialog();
                     return;
                 }
                 else if (txt_accnum.Text == "")
                 {
                     //MessageBox.Show("Please,Fill The Box Of Account Number");
-                    ChkAccountNumberForm chkAccountNum = new ChkAccountNumberForm();
+                    CheckAccountNumberForm chkAccountNum = new CheckAccountNumberForm();
                     chkAccountNum.ShowDialog();
                     return;
                 }
                 else if (txt_amount.Text == "")
                 {
                     //MessageBox.Show("Please,Fill The Box Of Amount");
-                    ChkAmountForm chkAmount = new ChkAmountForm();
+                    CheckAmountForm chkAmount = new CheckAmountForm();
                     chkAmount.ShowDialog();
                     return;
                 }

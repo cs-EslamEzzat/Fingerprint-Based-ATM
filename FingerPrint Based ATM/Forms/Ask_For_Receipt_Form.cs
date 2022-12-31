@@ -62,7 +62,7 @@ namespace FingerPrint_Based_ATM.Forms
             this.Hide();
             if (typeOfTransaction == "Transfer")
             {
-                ChkTransfirForm re = new ChkTransfirForm();
+                CheckTransfirForm re = new CheckTransfirForm();
                 re.receiveFinger(fingerPrintNum, check);
                 re.receiveAccountNum(accountNum);
                 re.receivingValues(value, "Transfer");

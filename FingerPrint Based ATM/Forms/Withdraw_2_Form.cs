@@ -89,7 +89,7 @@ namespace FingerPrint_Based_ATM.Forms
             else
             {
                 //MessageBox.Show("Please,Fill The Box Of Amount");
-                ChkAmountForm chkAmount = new ChkAmountForm();
+                CheckAmountForm chkAmount = new CheckAmountForm();
                 chkAmount.ShowDialog();
             }
         }

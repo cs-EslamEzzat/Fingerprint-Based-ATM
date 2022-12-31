@@ -87,35 +87,35 @@
     <Compile Include="Forms\Check_Transfer_Form.Designer.cs">
       <DependentUpon>Check_Transfer_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ChkAccountAndAmountForm.cs">
+    <Compile Include="Forms\CheckAccountAndAmountForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ChkAccountAndAmountForm.Designer.cs">
-      <DependentUpon>ChkAccountAndAmountForm.cs</DependentUpon>
+    <Compile Include="Forms\CheckAccountAndAmountForm.Designer.cs">
+      <DependentUpon>CheckAccountAndAmountForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ChkAccountNumberForm.cs">
+    <Compile Include="Forms\CheckAccountNumberForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ChkAccountNumberForm.Designer.cs">
-      <DependentUpon>ChkAccountNumberForm.cs</DependentUpon>
+    <Compile Include="Forms\CheckAccountNumberForm.Designer.cs">
+      <DependentUpon>CheckAccountNumberForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ChkAmountForm.cs">
+    <Compile Include="Forms\CheckAmountForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ChkAmountForm.Designer.cs">
-      <DependentUpon>ChkAmountForm.cs</DependentUpon>
+    <Compile Include="Forms\CheckAmountForm.Designer.cs">
+      <DependentUpon>CheckAmountForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ChkPinCodeForm.cs">
+    <Compile Include="Forms\CheckPinCodeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ChkPinCodeForm.Designer.cs">
-      <DependentUpon>ChkPinCodeForm.cs</DependentUpon>
+    <Compile Include="Forms\CheckPinCodeForm.Designer.cs">
+      <DependentUpon>CheckPinCodeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ChkTransfirForm.cs">
+    <Compile Include="Forms\CheckTransfirForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ChkTransfirForm.Designer.cs">
-      <DependentUpon>ChkTransfirForm.cs</DependentUpon>
+    <Compile Include="Forms\CheckTransfirForm.Designer.cs">
+      <DependentUpon>CheckTransfirForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Deposit_Form.cs">
       <SubType>Form</SubType>
@@ -257,41 +257,41 @@
     <EmbeddedResource Include="Forms\Check_Transfer_Form.resx">
       <DependentUpon>Check_Transfer_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkAccountAndAmountForm.ar-EG.resx">
-      <DependentUpon>ChkAccountAndAmountForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckAccountAndAmountForm.ar-EG.resx">
+      <DependentUpon>CheckAccountAndAmountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkAccountAndAmountForm.resx">
-      <DependentUpon>ChkAccountAndAmountForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckAccountAndAmountForm.resx">
+      <DependentUpon>CheckAccountAndAmountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkAccountNumberForm.aa.resx">
-      <DependentUpon>ChkAccountNumberForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckAccountNumberForm.aa.resx">
+      <DependentUpon>CheckAccountNumberForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkAccountNumberForm.ar-EG.resx">
-      <DependentUpon>ChkAccountNumberForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckAccountNumberForm.ar-EG.resx">
+      <DependentUpon>CheckAccountNumberForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkAccountNumberForm.resx">
-      <DependentUpon>ChkAccountNumberForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckAccountNumberForm.resx">
+      <DependentUpon>CheckAccountNumberForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkAmountForm.ar-EG.resx">
-      <DependentUpon>ChkAmountForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckAmountForm.ar-EG.resx">
+      <DependentUpon>CheckAmountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkAmountForm.resx">
-      <DependentUpon>ChkAmountForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckAmountForm.resx">
+      <DependentUpon>CheckAmountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkPinCodeForm.ar-EG.resx">
-      <DependentUpon>ChkPinCodeForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckPinCodeForm.ar-EG.resx">
+      <DependentUpon>CheckPinCodeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkPinCodeForm.resx">
-      <DependentUpon>ChkPinCodeForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckPinCodeForm.resx">
+      <DependentUpon>CheckPinCodeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkTransfirForm.aa.resx">
-      <DependentUpon>ChkTransfirForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckTransfirForm.aa.resx">
+      <DependentUpon>CheckTransfirForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkTransfirForm.ar-EG.resx">
-      <DependentUpon>ChkTransfirForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckTransfirForm.ar-EG.resx">
+      <DependentUpon>CheckTransfirForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ChkTransfirForm.resx">
-      <DependentUpon>ChkTransfirForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CheckTransfirForm.resx">
+      <DependentUpon>CheckTransfirForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Deposit_Form.ar-EG.resx">
       <DependentUpon>Deposit_Form.cs</DependentUpon>
