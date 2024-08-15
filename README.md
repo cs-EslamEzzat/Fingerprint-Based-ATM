@@ -11,7 +11,7 @@ An implementaion of Fingerprint-Based-ATM, It allows users to authenticate with 
 # Features
 1. Fingerprint-Based-ATM System is more secure than ATM card.
 2. Strength the security of the system.
-3. The user can authenicate with ATM without having card.
+3. The user can authenticate with ATM without having card.
 4. Easy to use.
 5. The system provides fingerprint and pin code as a security system instead of using pin code only.
 6. Using fingerprint, it contributes to development process of banking.
